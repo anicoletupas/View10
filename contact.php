@@ -1,4 +1,9 @@
-
+<html>
+    <head>
+    <meta http-equiv="refresh" content="4;url=index.html">
+    
+    
+    </head>
 <?php
     include("Config.php");
 
@@ -12,7 +17,7 @@ $subject = mysqli_real_escape_string($conn, $_POST['subject']);
 $message = mysqli_real_escape_string($conn, $_POST['message']);
 
 // attempt insert query execution
-$sql = "INSERT INTO contact_us_form (contactName, contactEmail, contactSubject, contactMessage) VALUES ('$name', '$email', '$sunject', '$message')";
+$sql = "INSERT INTO contact_us_form (contactName, contactEmail, contactSubject, contactMessage) VALUES ('$name', '$email', '$subject', '$message')";
 if(mysqli_query($conn, $sql)){
    echo "Data successfully Saved.";
 } else{
@@ -20,8 +25,10 @@ if(mysqli_query($conn, $sql)){
 }
 // close connection
 mysqli_close($conn);
+
  
 
  
 
 ?>
+</html>
