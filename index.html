@@ -1,281 +1,322 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Volton Free Responsive Template</title>
-        <meta name="description" content="">
-		
-        <!-- 
-    	Volton Template
-    	http://www.templatemo.com/tm-441-volton
-        -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/templatemo-style.css">
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-    
-        <div class="responsive-header visible-xs visible-sm">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="top-section">
-                            <div class="profile-image">
-                                <img src="img/profile.jpg" alt="Volton">
-                            </div>
-                            <div class="profile-content">
-                                <h3 class="profile-title">Volton</h3>
-                                <p class="profile-description">Digital Photographer</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
-                <div class="main-navigation responsive-menu">
-                    <ul class="navigation">
-                        <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
-                        <li><a href="#about"><i class="fa fa-user"></i>About Me</a></li>
-                        <li><a href="#projects"><i class="fa fa-newspaper-o"></i>My Gallery</a></li>
-                        <li><a href="#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<!doctype html>
+<html>
 
-		
-		
-		<!-- -- WORK ON THE SIDE BAR FIRST --> 
-		
-        <!-- SIDEBAR -->
-        <div class="sidebar-menu hidden-xs hidden-sm">
-            <div class="top-section">
-                <div class="profile-image">
-                    <img src="img/profile.jpg" alt="Volton">
-                </div>
-                <h3 class="profile-title">WELCOME STUDENT! </h3>
-                <p class="profile-description">VIEW 10</p>
-            </div> <!-- top-section -->
-            <div class="main-navigation">
-                <ul class="navigation">
-                    <li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
-					<!-- Insert a blurb about View 10 --> 
-					
-					<!-- NOTE: LOOK AT THE CLASS THE TAB IS ASSOCIATED WITH --> 
-					
-                    <li><a href="#about"><i class="fa fa-pencil"></i>View My Calendar</a></li>
-                    <li><a href="#projects"><i class="fa fa-paperclip"></i>View Colleges</a></li>
-                    <li><a href="#contact"><i class="fa fa-link"></i>Contact Us</a></li>
-                </ul>
-            </div> <!-- .main-navigation -->
-            
+	<style>
+		.button1 {
+    background-color: #7D7C7C;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
 
-        </div> <!-- .sidebar-menu -->
-        
+.button2 {
+    background-color: #7D7C7C;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
 
-        <div class="banner-bg" id="top" >
-            <div class="banner-overlay"></div>
+.button:hover {
+    background-color: green;
+}
+	
+</style>
+	
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+
+    <meta charset="UTF-8">
+    <meta name="google-signin-scope" content="sukumarlauren@gmail.com">
+    <meta name="google-signin-client_id" content="851631629859-5ms0fvlsrb736h8uacec3af6f1j801qg.apps.googleusercontent.com">
+    <title>VIEW 10</title>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<title>Homepage</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="shortcut icon" href="favicon.ico" type="img/x-icon">
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,800italic,700italic,600italic,400italic,300italic,800,700,600' rel='stylesheet' type='text/css'>
+
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script>
+<script type="text/javascript" src="js/classie.js"></script>
+<script>
+	$('#google-button').on('click', function() {
+	  // Initialize with your OAuth.io app public key
+	  OAuth.initialize('YOUR_OAUTH_KEY');
+	  // Use popup for oauth
+	  OAuth.popup('google').then(google => {
+	    console.log('google:',google);
+	    // Retrieves user data from oauth provider
+	    // Prompts 'welcome' message with User's email on successful login
+	    // #me() is a convenient method to retrieve user data without requiring you
+	    // to know which OAuth provider url to call
+	    google.me().then(data => {
+	      console.log('me data:', data);
+	      alert('Google says your email is:' + data.email + ".\nView browser 'Console Log' for more details");
+	    });
+	    // Retrieves user data from OAuth provider by using #get() and
+	    // OAuth provider url
+	    google.get('/plus/v1/people/me').then(data => {
+	      console.log('self data:', data);
+	    })
+	  });
+	})
+
+	
+</script>
+<script src="contactform/contactform.js"></script>
+
+</head>
+<body>
+	
+	
+<header class="header" id="header"><!--header-start-->
+	<div class="container">
 		
-            <div class="welcome-text">
-                <h2>WELCOME TO VIEW 10</h2>
-            </div>
-        </div>
-
-        <!-- MAIN CONTENT -->
-        <div class="main-content">
-            <div class="fluid-container">
-
-                <div class="content-wrapper">
-                
-                    <!-- ABOUT -->
-                    <div class="page-section" id="about">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="widget-title">MY CALENDAR</h4>
-                            
-                  <iframe src="https://calendar.google.com/calendar/embed?src=csu.fullerton.edu_0rs0e2mj3n27u0mv4t95ll0l74%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-							
-							<p>*Student must be logged into their CSU email address in order to RSVP to an event. </p>
+		<button class="button1">CLUB LOGIN</button>
+		<button class="button2">ADMIN LOGIN</button>
 		
-		<div>
-			<link rel="stylesheet" href="login.css">
-		</div>
-							<!-- Insert calendar here --> 
-							
-                        </div>
-                    </div> <!-- #about -->
-                    </div>
-                    
-                    <!-- PROJECTS -->
-                    <div class="page-section" id="projects">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="widget-title">CAL STATE FULLERTON COLLEGES</h4>
-                            <p>Click on a college to find the upcoming events hosted within clubs!</p>
-                        </div>
-                    </div>
-                    <div class="row projects-holder">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/ecs.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="#">ENGINEERING AND COMPUTER SCIENCE</a></h5>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/arts.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="comingsoon.html">THE ARTS</a></h5>
-										<!-- Insert Link in HREF for the college --> 
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/business.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="comingsoon.html">BUSINESS AND ECONOMICS</a></h5>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/comms.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="comingsoon.html">COMMUNICATIONS</a></h5>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/education.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="comingsoon.html">EDUCATION</a></h5>
+    	<figure class="logo animated fadeInDown delay-07s">
+        	
+        </figure>	
+		
+
+        <h1 class="animated fadeInDown delay-07s">Welcome To VIEW 10</h1>
+        <ul class="we-create animated fadeInUp delay-1s">
+        	<li>A place where students can checkout upcoming events.</li>
+			
+			<p> Cal State Fullerton Students login here. </p>
+        </ul>
  
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/hnd.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="comingsoon.html">HEALTH AND HUMAN DEVELOPMENT</a></h5>
-                                      
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						
-						<div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/humanities.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="comingsoon.html">HUMANITIES AND SOCIAL SCIENCES</a></h5>
-                                     
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						
-						<div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/math.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="comingsoon.html">NATURAL SCIENCES AND MATHEMATICS</a></h5>
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						
-						<div class="col-md-4 col-sm-6">
-                            <div class="project-item">
-                                <img src="img/extendededu.jpg" alt="">
-                                <div class="project-hover">
-                                    <div class="inside">
-                                        <h5><a href="comingsoon.html">UNIVERSITY EXTENDED EDUCATION</a></h5>
-                                     
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-						
-                    </div> <!-- .projects-holder -->
-                    </div>
-                    <hr>
+			<div class="g-signin2" data-onsuccess="onSignIn"></div>
+		
+			<div> 
+				<link rel="stylesheet" href="login.css">
+			
+				<a id="google-button" class="btn btn-block btn-social btn-google">
+			  	  	<i class="fa fa-google"></i> Sign in with Google
+			</a>
+			</div>
+			<!-- Student will click on this icon to log into personalized portal. -->
+    </div>
+</header><!--header-end-->
 
-                    <!-- CONTACT -->
-                    <div class="page-section" id="contact">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h4 class="widget-title">CONTACT US!</h4>
-                            <p>Have questions or concerns? Please fill in the form below and we will get back to you as soon as possible.</p>
+	<!-- Once student LOGS IN, then the following navigaton bar along with other things should be displayed. -->
+	<style>
+	.form
+	  .form-toggle
+	  .form-panel.one
+	    .form-header
+	      h1 Account Login
+	    .form-content
+	      form
+	        .form-group
+	          label(for='username') Username
+	          input(type='text'
+	                id='username'
+	                name='username'
+	                required)
+	        .form-group
+	          label(for='password') Password
+	          input(type='password'
+	                id='password'
+	                name='password'
+	                required)
+	        .form-group
+	          label.form-remember
+	            input(type='checkbox')
+	            | Remember Me
+	          a.form-recovery(href='#') Forgot Password?
+	        .form-group
+	          button(type='submit') Log In
+	  .form-panel.two
+	    .form-header
+	      h1 Register Account
+	    .form-content
+	      form
+	        .form-group
+	          label(for='username') Username
+	          input(type='text'
+	                id='username'
+	                name='username'
+	                required)
+	        .form-group
+	          label(for='password') Password
+	          input(type='password'
+	                id='password'
+	                name='password'
+	                required)
+	        .form-group
+	          label(for='cpassword') Confirm Password
+	          input(type='password'
+	                id='cpassword'
+	                name='cpassword'
+	                required)
+	        .form-group
+	          label(for='email') Email Address
+	          input(type='email'
+	                id='email'
+	                name='email'
+	                required)
+	        .form-group
+	          button(type='submit') Register
+		</style>
+		
+
+<section class="main-section" id="contact"><!--main-section-start-->
+	<div class="container">
+    	<h2>HAVE QUESTIONS?  CONTACT US</h2>
+      
+		<div class="row">
+        
+        	<div class="col-lg-6 col-sm-4 wow fadeInUp delay-05s">
+            	<div class="form">
+                	
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="" method="post" role="form" class="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" class="form-control input-text" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <div class="validation"></div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <form action="contact.php" method="POST" class="contact-form">
-                            <fieldset class="col-md-4 col-sm-6">
-                                <input type="text" name="name" id="your-name" placeholder="Your Name...">
-                            </fieldset>
-                            <fieldset class="col-md-4 col-sm-6">
-                                <input type="email" name ="email" id="email" placeholder="Your Email...">
-                            </fieldset>
-                            <fieldset class="col-md-4 col-sm-12">
-                                <input type="text" name= "subject" id="your-subject" placeholder="Subject...">
-                            </fieldset>
-                            <fieldset class="col-md-12 col-sm-12">
-                                <textarea name="message" id="message" cols="30" rows="6" placeholder="Leave your message..."></textarea>
-                            </fieldset>
-                            <fieldset class="col-md-12 col-sm-12">
-                                <input type="submit" class="button big default" value="Send Message">
-                            </fieldset>
-                        </form>
-                    </div> <!-- .contact-form -->
-                    </div>
-                    <hr>
-
-                    <div class="row" id="footer">
-                        <div class="col-md-12 text-center">
-                            <p class="copyright-text">Copyright VIEW 10 TEAM</p>
+                        <div class="form-group">
+                            <input type="email" class="form-control input-text" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <div class="validation"></div>
                         </div>
-                    </div>
-
-                </div>
-
+                        <div class="form-group">
+                            <input type="text" class="form-control input-text" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control input-text text-area" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                            <div class="validation"></div>
+                        </div>
+                        
+                        <div class="text-center"><button type="submit" class="input-btn">Send Message</button></div>
+                    </form>
+                </div>	
             </div>
         </div>
+	</div>
+	
+</section><!--main-section-end-->
 
-        <script src="js/vendor/jquery-1.10.2.min.js"></script>
-        <script src="js/min/plugins.min.js"></script>
-        <script src="js/min/main.min.js"></script>
 
-    </body>
+
+
+
+<script type="text/javascript">
+    $(document).ready(function(e) {
+        $('#test').scrollToFixed();
+        $('.res-nav_click').click(function(){
+            $('.main-nav').slideToggle();
+            return false    
+            
+        });
+        
+    });
+</script>
+
+
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100
+      }
+    );
+    wow.init();
+  </script>
+
+
+<script type="text/javascript">
+	$(window).load(function(){
+		
+		$('.main-nav li a, .servicelink').bind('click',function(event){
+			var $anchor = $(this);
+			
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top - 102
+			}, 1500,'easeInOutExpo');
+			/*
+			if you don't want to use the easing effects:
+			$('html, body').stop().animate({
+				scrollTop: $($anchor.attr('href')).offset().top
+			}, 1000);
+			*/
+      if ($(window).width() < 768 ) { 
+        $('.main-nav').hide(); 
+      }
+			event.preventDefault();
+		});
+	})
+</script>
+
+<script type="text/javascript">
+
+$(window).load(function(){
+  
+  
+  var $container = $('.portfolioContainer'),
+      $body = $('body'),
+      colW = 375,
+      columns = null;
+
+  
+  $container.isotope({
+    // disable window resizing
+    resizable: true,
+    masonry: {
+      columnWidth: colW
+    }
+  });
+  
+  $(window).smartresize(function(){
+    // check if columns has changed
+    var currentColumns = Math.floor( ( $body.width() -30 ) / colW );
+    if ( currentColumns !== columns ) {
+      // set new column count
+      columns = currentColumns;
+      // apply width to container manually, then trigger relayout
+      $container.width( columns * colW )
+        .isotope('reLayout');
+    }
+    
+  }).smartresize(); // trigger resize to set container width
+  $('.portfolioFilter a').click(function(){
+        $('.portfolioFilter .current').removeClass('current');
+        $(this).addClass('current');
+ 
+        var selector = $(this).attr('data-filter');
+        $container.isotope({
+			
+            filter: selector,
+         });
+         return false;
+    });
+});
+
+</script>
+
+</body>
 </html>
